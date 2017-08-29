@@ -3,7 +3,7 @@
 #include "data_stream.h"
 #include <string>
 
-namespace sq { namespace filesystem {
+namespace sb { namespace filesystem {
 
         #define ALIGN_TO_PAGE(x) ((x) & ~(MemoryDataStream::getPageSize() - 1))
         #define UPPER_ALIGN_TO_PAGE(x) ALIGN_TO_PAGE((x)+(MemoryDataStream::getPageSize()-1))

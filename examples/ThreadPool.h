@@ -6,7 +6,7 @@
 #include <thread>
 #include <condition_variable>
 
-namespace sq { namespace common {
+namespace sb { namespace common {
 
 extern inline void usleep(unsigned int usecs);
 extern inline std::thread::id get_thread_id();

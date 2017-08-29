@@ -7,7 +7,7 @@
 
 #include "filesystem/memory_file_data_stream.h"
 
-namespace sq { namespace filesystem {
+namespace sb { namespace filesystem {
 
 struct memMapPlatformFields
 {

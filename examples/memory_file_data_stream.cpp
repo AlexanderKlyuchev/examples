@@ -3,10 +3,7 @@
 
 #include "filesystem/memory_file_data_stream.h"
 
-namespace  sq { namespace filesystem {
-
-SQ_BEGIN_OBJECT(MemoryDataStream)
-SQ_END_OBJECT()
+namespace  sb { namespace filesystem {
 
 
 MemoryFileId::MemoryFileId(const std::string& fname, FileMode access_mode_param)

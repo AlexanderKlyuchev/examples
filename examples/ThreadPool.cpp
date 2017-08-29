@@ -22,7 +22,7 @@ void print_log(const char *s, const T& value, const Args&... args)
     throw std::runtime_error("extra arguments provided to printf");
 }
 
-namespace sq { namespace common {
+namespace sb { namespace common {
 
 
 inline void usleep(unsigned int usecs)

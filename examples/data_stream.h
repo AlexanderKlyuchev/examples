@@ -3,7 +3,7 @@
 #include "common.h"
 #include "scripting/TypeInfo.h"
 
-namespace sq { namespace filesystem {
+namespace sb { namespace filesystem {
 
 enum class FileMode
 {
